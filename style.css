@@ -1,0 +1,373 @@
+body{
+    background-color: #FBF8CC;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1270px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 37px;
+}
+.nav-title{
+    font-family: Poppins;
+font-weight: 600;
+font-size: 24px;
+line-height: 100%;
+color: #03045E;
+}
+.silks{
+    list-style: none;
+    display: flex;
+    gap: 61px;
+}
+.silks a {
+    font-family: Poppins;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+color: #03045E;
+text-decoration: none;
+}
+.social-network{
+    display: flex;
+    gap: 29px;
+}
+.resume-btn {
+    background-color: #fdf0a5;
+    border: 1px solid #ccc;
+    padding: clamp(10px, 2.5vw, 14px) clamp(20px, 6vw, 30px);
+    font-size: clamp(14px, 2.5vw, 18px);
+    border-radius: 10px;
+    box-shadow: 4px 4px 0 #f5d25c;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+    top: -24px;
+  }
+  
+  .resume-btn:hover {
+    background-color: #fff7c4;
+    box-shadow: 2px 2px 0 #eac74f;
+  }
+  
+  .resume-btn:active {
+    transform: translate(2px, 2px);
+    box-shadow: 1px 1px 0 #d3b94a;
+  }
+  .header-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 110px;
+  }
+  .header-center img {
+    max-width: 100%;
+    height: auto;
+  }
+.about__text{
+    font-family: Poppins;
+font-weight: 500;
+font-size: 28px;
+line-height: 100%;
+color: #03045E;
+position: relative;
+top: 34px;
+}
+.about__title{
+    font-family: Poppins;
+font-weight: 800;
+font-size: 100px;
+line-height: 100%;
+color: #03045E;
+}
+.about__description{
+    font-family: Poppins;
+font-weight: 500;
+font-size: 28px;
+line-height: 100%;
+color: #03045E;
+position: relative;
+top: -34px;
+}
+.about-main{
+    padding-top: 260px;
+}
+.about-main-title{
+    font-family: Poppins;
+font-weight: 800;
+font-size: 100px;
+line-height: 116px;
+color: #F7F197;
+}
+.about-main-description{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 24px;
+line-height: 44px;
+color: #03045E;
+position: relative;
+top: -24px;
+}
+.working-years{
+    padding-left: 256px;
+}
+.years{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.years p {
+    font-family: Poppins;
+font-weight: 600;
+font-size: 24px;
+line-height: 40px;
+color: #03045E;
+}
+.circle{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #03045E;
+}
+.work-description{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 24px;
+line-height: 44px;
+color: #03045E;
+position: relative;
+top: -24px;
+}
+.works{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 104px;
+}
+.date{
+    font-family: Poppins;
+font-weight: 400;
+font-style: italic;
+font-size: 15px;
+line-height: 44px;
+color: #03045E;
+position: relative;
+top: -24px;
+}
+.case-study{
+    font-family: Poppins;
+font-weight: 600;
+font-size: 24px;
+line-height: 44px;
+color: #03045E;
+position: relative;
+top: -44px;
+}
+.study-description{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+color: #03045E;
+position: relative;
+top: -44px;
+}
+.contact-img{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -66px;
+}
+.contact-description{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 24px;
+line-height: 44px;
+color: #03045E;
+padding-left: 38px;
+}
+.contact__silks li {
+    list-style: none;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    padding-left: 38px;
+}
+.socials{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 24px;
+line-height: 44px;
+color: #03045E;
+text-decoration: none;
+}
+.contact-img img {
+    max-width: 100%;
+    height: auto;
+}
+.first-study img {
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 20px;
+    }
+
+    .silks {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .header-center {
+        flex-direction: column;
+        padding-top: 80px;
+    }
+
+    .about__title {
+        font-size: 60px;
+    }
+
+    .about__text {
+        font-size: 22px;
+        top: 20px;
+    }
+
+    .about__description {
+        font-size: 22px;
+        top: -20px;
+    }
+
+    .about-main-title {
+        font-size: 60px;
+        line-height: 80px;
+    }
+
+    .about-main-description {
+        font-size: 20px;
+    }
+
+    .years {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .work-description {
+        font-size: 18px;
+    }
+
+    .works {
+        flex-direction: column;
+        padding-top: 80px;
+    }
+    .working-years {
+        padding-left: 150px;
+    }
+    .case-study {
+        font-size: 20px;
+    }
+
+    .study-description {
+        font-size: 16px;
+    }
+    .contact-img{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact-description {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    .social{
+        padding-left: 20px;
+    }
+    .resume-btn {
+        padding: 12px 25px;
+        font-size: 16px;
+        top: -20px;
+    }
+    .socials {
+        font-size: 20px;
+        line-height: 36px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-title {
+        font-size: 20px;
+    }
+
+    .silks {
+        gap: 30px;
+    }
+
+    .resume-btn {
+        padding: 10px 20px;
+        font-size: 14px;
+        top: -10px;
+    }
+
+    .about__title {
+        font-size: 50px;
+    }
+
+    .about__text,
+    .about__description {
+        font-size: 20px;
+    }
+
+    .about-main-title {
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .about-main-description {
+        font-size: 18px;
+    }
+
+    .circle {
+        width: 10px;
+        height: 10px;
+    }
+
+    .years p {
+        font-size: 20px;
+    }
+
+    .work-description {
+        font-size: 16px;
+    }
+    .working-years {
+        padding-left: 30px; 
+    }
+    .case-study {
+        font-size: 18px;
+    }
+
+    .study-description {
+        font-size: 14px;
+    }
+
+    .contact-description {
+        font-size: 18px;
+        padding-left: 10px;
+    }
+    .contact-img{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .social{
+        padding-left: 10px;
+    }
+    .socials {
+        font-size: 18px;
+        line-height: 32px;
+    }
+}
